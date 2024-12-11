@@ -1,9 +1,8 @@
-<<<<<<< HEAD
 <?php
   $dbhost = "localhost";
 	$dbuser = "root";
 	$dbpass = "";
-	$db = "client";
+	$db = "pupairport";
 
 	$conn = new mysqli($dbhost, $dbuser, $dbpass,$db) or die("Connect failed: %s\n". $conn -> error);
 
@@ -17,3 +16,4 @@
     $conn = $GLOBALS['conn'];
     return mysqli_query($conn, $query);
   }
+?>
